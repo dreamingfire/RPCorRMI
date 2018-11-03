@@ -12,7 +12,7 @@ public class ClientApp {
             ((Exception) service).printStackTrace();
             return ;
         }
-        String rs = service.hello("lidafei");
+        String rs = service.hello("xxx");
         System.out.println(rs);
     }
 }
